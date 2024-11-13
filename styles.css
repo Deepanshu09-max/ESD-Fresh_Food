@@ -1,0 +1,74 @@
+.hero-section img {
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: white !important;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.rating {
+    font-size: 0.9rem;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.title {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .hero-section img {
+        height: 400px;
+    }
+}
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: black !important;
+    font-weight: bold; 
+}
+
+.navbar-dark .nav-link:hover {
+    color: #333 !important;
+}
+.navbar-dark .navbar-brand {
+    color: red !important;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-brand .fa-utensils {
+    color: red;
+}
+.hero-content {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.hero-content p {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.btn-danger {
+    background-color: #ff0000;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+
